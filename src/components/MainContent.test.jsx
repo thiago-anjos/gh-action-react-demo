@@ -21,6 +21,6 @@ describe("MainContent", () => {
 
   it("should teste toggleHelp method", () => {
     render(<MainContent />);
-    expect(screen.queryByTestId("help-area"))).not.toBeInTheDocument();
+    expect(screen.queryByTestId("help-area")).not.toBeInTheDocument();
   });
 });
