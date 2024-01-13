@@ -8,7 +8,9 @@ function App() {
         <div id="logo-img">
           <img src={logo} />
         </div>
-        <h1>Learn & Master GitHub Actions teste not dispatch event fixed</h1>
+        <h1>
+          Learn & Master GitHub Actions teste not dispatch event fixed - tested
+        </h1>
       </header>
       <MainContent />
     </>
